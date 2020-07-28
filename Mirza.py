@@ -26,7 +26,7 @@ user = raw_input('[ðŸ’€] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
 wrdlstFileName = raw_input('\n[ðŸ’€] Wordlist Type mirza.txt >> ')
 try:
-    wordlist = open(wrdlstFileName, 'r')
+    wordlist = open(/storage/emulated/0/Download/T4RG3T-master/T4RG3T-master/, 'r')
 except FileNotFoundError:
     print ('\n[!] File Not Found!')
     exit()
